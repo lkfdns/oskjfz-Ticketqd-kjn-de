@@ -6,7 +6,7 @@ const client = new Client({
     partials: ["USER", "CHANNEL", "GUILD_MEMBER", "MESSAGE", "REACTION"]
 });
 
-const { token } = require('./config.json');
+const { token } = require('./config');
 
 client.login(token);
 client.commands = new Collection();
