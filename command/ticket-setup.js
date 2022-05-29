@@ -30,7 +30,7 @@ module.exports = {
             embeds: [{
                 title: 'Ouvrir un ticket',
                 description: '**Quelle est la raison de votre ticket ?**\nVeuillez choisir le type de ticket que vous souhaitez ouvrir.',
-                color: "RED", 
+                color: "PURPLE", 
                 footer: {text: 'LeMonde - Ticket'}
             }],
             components: [row]
